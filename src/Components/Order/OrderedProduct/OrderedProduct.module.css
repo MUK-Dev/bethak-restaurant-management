@@ -1,0 +1,7 @@
+.Root {
+	box-shadow: 1px 1px 10px rgb(167, 165, 165);
+	color: rgb(224, 224, 224);
+	border-radius: 5px;
+	margin: 5px 0;
+	padding: 10px;
+}

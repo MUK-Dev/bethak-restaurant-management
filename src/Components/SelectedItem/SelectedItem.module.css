@@ -1,0 +1,22 @@
+.SelectedProduct {
+	margin: 10px 10px !important;
+	width: 80%;
+	border-radius: 3px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	color: white;
+	background-color: transparent;
+	animation: fade ease-in 0.3s;
+}
+
+.Buttons {
+	margin: 10px;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

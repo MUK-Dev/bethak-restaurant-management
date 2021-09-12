@@ -1,0 +1,39 @@
+.Nav {
+	background-color: #222222;
+}
+
+.NavButton {
+	color: bisque;
+	margin: 0 20px;
+	transition: all 200ms ease-in;
+}
+.NavButton:hover {
+	color: beige;
+	margin: 0 25px;
+}
+
+.Button {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	bottom: auto;
+	right: auto;
+}
+
+.Active {
+	border-bottom-color: #2971ac;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	width: fit-content;
+	padding-bottom: 10px;
+	transition: all 200ms ease-in;
+	font-weight: 700;
+}
+
+.Active:hover {
+	border-bottom-color: #174061;
+}
+
+.Fixed {
+	z-index: 5 !important;
+}

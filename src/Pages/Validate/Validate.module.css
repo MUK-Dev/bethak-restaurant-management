@@ -1,0 +1,13 @@
+.Root {
+	min-height: 100vh;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background-color: #121212;
+}
+
+.TextField {
+	width: 20%;
+}

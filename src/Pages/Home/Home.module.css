@@ -1,0 +1,57 @@
+.Root {
+	min-height: 100vh;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background-color: #121212;
+}
+
+.Row {
+	width: 100%;
+}
+
+.List {
+	width: 45%;
+	text-align: center;
+	padding: 5px;
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	overflow: auto;
+	background-color: #222222;
+}
+
+.TopSection {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	width: 20%;
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-family: "Allison", cursive;
+	font-weight: 800;
+}
+
+.RestaurantImage {
+	height: 100px;
+	width: 100px;
+}
+
+.Spinner {
+	margin-top: 250px;
+}
+
+.SingleProduct {
+	width: 80%;
+}
+
+.TextField {
+	width: 80%;
+}
+
+.Visible {
+	overflow: visible;
+}

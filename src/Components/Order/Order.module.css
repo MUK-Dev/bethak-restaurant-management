@@ -1,0 +1,30 @@
+.Order {
+	margin: 10px 10px !important;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	background-color: transparent;
+	border: none;
+	animation: fade ease-in 0.5s;
+}
+.Order:active {
+	background-color: transparent;
+}
+.Order:focus {
+	background-color: transparent;
+}
+
+.Row {
+	width: 70% !important;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

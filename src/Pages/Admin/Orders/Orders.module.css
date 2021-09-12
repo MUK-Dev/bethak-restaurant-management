@@ -1,0 +1,64 @@
+.Root {
+	min-height: 100vh;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	background-color: #121212;
+}
+
+.Root hr {
+	width: 50%;
+	height: 5px;
+	background-color: #222222;
+	box-shadow: 1px 1px 13px #365d7c;
+	border: none;
+}
+
+.DataPicker {
+	width: auto !important;
+	margin: 0 5px !important;
+}
+
+.ClearFilterButton {
+	display: none;
+}
+
+.RecordShow {
+	background-color: #222222;
+	position: fixed;
+	left: auto;
+	top: 50%;
+	right: 0;
+	padding: 0;
+	transition: all 0.4s ease-in;
+}
+
+.RecordHide {
+	transform: translateX(83%);
+}
+
+.Icon {
+	color: whitesmoke;
+	transform: rotate(180deg);
+	transition: all 0.2s ease-in;
+}
+
+.IconInverted {
+	transform: rotate(0);
+}
+
+.NoMargin {
+	margin: 0;
+}
+
+.NoMargin button {
+	background-color: transparent;
+	border: none;
+	height: 75px;
+	cursor: pointer;
+}
+
+.NoMargin button:active,
+button:focus {
+	background-color: transparent;
+}
